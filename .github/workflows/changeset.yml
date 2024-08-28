@@ -32,6 +32,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.BUNNY_GITHUB }}
         with:
-          publish: "pnpm changeset publish"
+          publish: "deno task ci:publish"
           title: "🎉 Release"
           createGithubReleases: true
