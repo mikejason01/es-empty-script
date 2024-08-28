@@ -21,7 +21,7 @@ jobs:
         run: deno task build
 
       - name: Publish the script to Bunny
-        uses: BunnyWay/actions/deploy-script@deploy-script@0.2.0
+        uses: 'BunnyWay/actions/deploy-script@deploy-script_0.3.0'
         with:
           script_id: ${{ secrets.SCRIPT_ID }}
           deploy_key: ${{ secrets.DEPLOY_KEY }}
