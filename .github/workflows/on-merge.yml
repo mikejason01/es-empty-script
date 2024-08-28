@@ -17,6 +17,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
+      - name: 'Setup Javascript'
+        uses: ./.github/actions/setup-project
+
       - name: Bundle the script into a single file
         run: deno task build
 
