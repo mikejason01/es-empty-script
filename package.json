@@ -1,0 +1,29 @@
+{
+  "name": "es-empty-script",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BunnyWay/es-empty-script.git"
+  },
+  "keywords": [
+    "github",
+    "bunny"
+  ],
+  "author": "Bunny Devs",
+  "license": "MIT",
+  "scripts": {
+    "lint": "deno lint",
+    "test": "deno test -A **/*.test.ts",
+    "check": "deno check src/main.ts",
+    "build": "mkdir dist && deno bundle src/main.ts dist/index.ts",
+    "dev": "deno run src/main.ts",
+    "release": "echo \"No release\"",
+    "ci:version": "pnpm changeset version"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
+}
