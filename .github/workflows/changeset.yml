@@ -23,8 +23,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.BUNNY_GITHUB }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.BUNNY_GITHUB }}
 
       - name: Setup Javascript
         uses: ./.github/actions/setup-project

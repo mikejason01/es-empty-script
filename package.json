@@ -16,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "deno lint",
-    "test": "deno test --allow-none -A **/*.test.ts",
+    "test": "deno test -A src/**/*.test.ts",
     "check": "deno check src/main.ts",
     "build": "mkdir dist && deno bundle src/main.ts dist/index.ts",
     "dev": "deno run src/main.ts",
