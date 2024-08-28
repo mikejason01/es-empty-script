@@ -20,3 +20,13 @@ deno task lint
 # We ensure everything is type compliant!
 deno task check
 ```
+
+## Changeset
+
+In this template, we handle versionning with [changeset](https://github.com/changesets/changesets), 
+each time you do a change, you'll need to indicate the kind of changes you are 
+doing so we can have the auto-release process ongoing by doing:
+
+```
+pnpm changeset
+```
