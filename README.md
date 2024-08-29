@@ -5,6 +5,9 @@ This templates demonstrates a basic script built for Bunny using a local `Deno`.
 > You do not want to use Deno? Feel free to use something else, [here](https://bunny.net) is a full
 > fledged example with `node` instead!
 
+This templated script is currently deployed
+[here](https://es-simple-script-8rxx0.b-cdn.net/).
+
 ## Setup
 
 To run this example you'll need to have a valid
