@@ -24,6 +24,8 @@ deno task lint
 deno task check
 ```
 
+We also use `pnpm` to use `changeset`.
+
 ## Changeset
 
 In this template, we handle versionning with [changeset](https://github.com/changesets/changesets), 
