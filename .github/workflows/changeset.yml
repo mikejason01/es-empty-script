@@ -14,8 +14,6 @@ jobs:
       issues: write
       pull-requests: write
 
-    if: github.repository == 'BunnyWay/es-empty-script'
-
     name: Release
     runs-on: ubuntu-latest
     steps:
